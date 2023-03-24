@@ -1,0 +1,135 @@
+.corpoPagina {
+    background-color: white;
+}
+.cabecalho {
+    padding: 20px;
+}
+
+.cabecalho > .titulo {
+    color: black;
+    padding: 20px;
+    font-family: Helvetica;
+    font-size: 100px;
+    -webkit-text-stroke-color: yellowgreen;
+    -webkit-text-stroke-width: 2px;
+    display: inline; /* Nao pular a linha */
+}
+
+.Twitter, .Instagram {
+    padding: 35px 20px;
+}
+
+.nav {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 35% 30% 35%;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre {
+    text-align: right;
+}
+
+.musica {
+    text-align: center;
+}
+
+.shop {
+    text-align: left;
+}
+
+.botao {
+    grid-column: 1/4;
+}
+
+.btn_W3C {
+    font-size: 80px;
+    white-space: normal;
+}
+
+.btn_W3C:hover {
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.nav > .links_nav {
+    color: black;
+    text-decoration: none;
+    font-size: 80px;
+    padding: 10px 40px 0px 0px;
+    font-family: 'Gill Sans';
+}
+
+.links_nav:hover {
+    font-style: italic;
+}
+
+.foto_cantora {
+    height: auto;
+    width: 100%;
+}
+
+.conteudo > .titulo {
+    font-size: 80px;
+    color: black;
+    padding: 10px;
+}
+
+.conteudo > .info {
+    color: black;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.conteudo > .bio {
+    font-size: 50px;
+    color: black;
+    padding: 10px;
+}
+
+.conteudo > .relevancia {
+    font-size: 50px;
+    color: black;
+    padding: 20px;
+}
+
+.conteudo > .titulo_curiosidade {
+    font-size: 80px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo > .curiosidades {
+    font-size: 50px;
+    color: black;
+    padding: 50px;
+}
+
+.conteudo > .premio_titulo {
+    font-size: 80px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo > .tabela, th, td {
+    background-color: blanchedalmond;
+    color: black;
+    border: 3px solid aqua;
+    margin: auto;
+    font-size: 50px;
+}
+
+.conteudo > .titulo_tabela {
+    font-size: 60px;
+    color: black;
+}
+
+.rodape {
+    padding: 20px;
+    font-size: 40px;
+    color: black;
+}

@@ -1,0 +1,106 @@
+.corpoPagina {
+    background-color: white;
+}
+.cabecalho {
+    padding: 20px;
+}
+
+.cabecalho > .titulo {
+    color: black;
+    padding: 20px;
+    font-family: Helvetica;
+    font-size: 100px;
+    -webkit-text-stroke-color: yellowgreen;
+    -webkit-text-stroke-width: 2px;
+    display: inline; /* Nao pular a linha */
+}
+
+.Twitter, .Instagram {
+    padding: 35px 20px;
+}
+
+.nav {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 35% 30% 35%;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre {
+    text-align: right;
+}
+
+.musica {
+    text-align: center;
+}
+
+.shop {
+    text-align: left;
+}
+
+.botao {
+    grid-column: 1/4;
+}
+
+.btn_W3C {
+    font-size: 80px;
+    white-space: normal;
+}
+
+.btn_W3C:hover {
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.nav > .links_nav {
+    color: black;
+    text-decoration: none;
+    font-size: 80px;
+    padding: 10px 40px 0px 0px;
+    font-family: 'Gill Sans';
+}
+
+.links_nav:hover {
+    font-style: italic;
+}
+
+.titulo {
+    font-family: 'Segoe UI';
+    color: black;
+    font-size: 90px;
+    text-align: center;
+    -webkit-text-stroke-color: yellowgreen;
+    -webkit-text-stroke-width: 2px;
+}
+
+.tabela, th, td {
+    background-color: blanchedalmond;
+    color: black;
+    border: 3px solid aqua;
+    margin: auto;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 50px;
+}
+
+.produtos {
+    font-family: 'Lucida Sans';
+    font-size: 80px;
+    text-align: center;
+}
+
+.botoes {
+    font-size: 70px;
+}
+
+.rodape {
+    padding: 20px;
+    font-size: 40px;
+    color: black;
+}
